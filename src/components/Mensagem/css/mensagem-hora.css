@@ -1,0 +1,16 @@
+.mensagem__hora {
+    color: rgba(117, 119, 99, 0.76);
+    text-align: right;
+}
+
+@media screen and (min-width: 0) {
+    .mensagem__hora {
+        font-size: .75rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mensagem__hora {
+        font-size: .9rem;
+    }
+}

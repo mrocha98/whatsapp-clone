@@ -1,0 +1,23 @@
+.barraSuperior {
+    align-items: center;
+    background: #005e54;
+    color: #fff;
+    display: grid;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (min-width: 0) {
+    .barraSuperior {
+        height: 3rem;
+        border-top: unset;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .barraSuperior {
+        height: calc(5rem - 10px);
+        border-top: solid #fbfbfb 10px;
+    }
+}

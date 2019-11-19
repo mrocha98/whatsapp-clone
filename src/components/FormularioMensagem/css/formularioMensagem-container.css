@@ -1,0 +1,6 @@
+.formularioMensagem__container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: .45rem .45rem .45rem 0;
+}

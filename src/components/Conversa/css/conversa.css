@@ -1,0 +1,23 @@
+.conversa {
+    background-image: url("../../../assets/whatsapp_wallpaper.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    padding-right: 0;
+    position: relative;
+}
+
+@media screen and (min-width: 0) {
+    .conversa {
+        height: 95vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .conversa {
+        height: 85vh;
+    }
+}
+

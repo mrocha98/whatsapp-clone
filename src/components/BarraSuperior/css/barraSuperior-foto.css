@@ -1,0 +1,7 @@
+.barraSuperior__foto {
+    border-radius: 50%;
+    grid-column: 1;
+    height: 48px;
+    margin: 0 0.65rem 0 0.65rem;
+    width: 48px;
+}

@@ -1,0 +1,32 @@
+.mensagem {
+    display: grid;
+    margin: 0.65rem 0 0.65rem 0;
+    max-width: 65%;
+}
+
+@media screen and (min-width: 0) {
+    .mensagem {
+        height: 45%;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mensagem {
+        height: 85%;
+        padding: 20px;
+    }
+}
+
+.mensagem--recebida {
+    background: #fff;
+    border-radius: 0 5px 5px 5px;
+    float: left;
+}
+
+.mensagem--enviada {
+    background: #e1ffc7;
+    border-radius: 5px 0 5px 5px;
+    float: right;
+    margin-right: 20px;
+}
